@@ -48,17 +48,7 @@ pip install flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x
 
 ### Data Preparation
 
-We use the CheXpert and ISIC datasets in our paper. Our train/validation/test CSV files for both datasets are in the `splits` folder. Data can be downloaded from [this link](https://drive.google.com/file/d/1l1AMd0dKzwbex_CXO8ZRHedtSULUHFad/view?usp=drive_link). Alternatively, use the following command to download the data using the `gdown` package:
-
-```bash
-gdown 1l1AMd0dKzwbex_CXO8ZRHedtSULUHFad
-```
-
-After downloading, unzip the package and place it in the project directory:
-
-```bash
-unzip data.zip
-```
+We use the CheXpert and ISIC datasets in our paper. Our train/validation/test CSV files for both datasets are in the `splits` folder.
 
 ### Downloading Model Weights
 
